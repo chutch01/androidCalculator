@@ -13,20 +13,21 @@
     tools:showIn="@layout/activity_main">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
+        android:text="0"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="50dp" />
 
     <Button
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:text="AC"
-        android:id="@+id/button"
+        android:id="@+id/ACButton"
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
         android:layout_marginTop="23dp" />
@@ -35,144 +36,144 @@
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:text="+/-"
-        android:id="@+id/button2"
-        android:layout_alignTop="@+id/button"
-        android:layout_toEndOf="@+id/button" />
+        android:id="@+id/plusMinusButton"
+        android:layout_alignTop="@+id/ACButton"
+        android:layout_toEndOf="@+id/ACButton" />
 
     <Button
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:text="%"
-        android:id="@+id/button3"
-        android:layout_alignTop="@+id/button2"
-        android:layout_toEndOf="@+id/button2" />
+        android:id="@+id/percentButton"
+        android:layout_alignTop="@+id/plusMinusButton"
+        android:layout_toEndOf="@+id/plusMinusButton" />
 
     <Button
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:text="/"
-        android:id="@+id/button4"
-        android:layout_alignTop="@+id/button3"
-        android:layout_toEndOf="@+id/button3" />
+        android:id="@+id/divideButton"
+        android:layout_alignTop="@+id/percentButton"
+        android:layout_toEndOf="@+id/percentButton" />
 
     <Button
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:text="7"
-        android:id="@+id/button5"
-        android:layout_below="@+id/button"
+        android:id="@+id/sevenButton"
+        android:layout_below="@+id/ACButton"
         android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:text="8"
-        android:id="@+id/button6"
-        android:layout_alignTop="@+id/button5"
-        android:layout_toEndOf="@+id/button5" />
+        android:id="@+id/eightButton"
+        android:layout_alignTop="@+id/sevenButton"
+        android:layout_toEndOf="@+id/sevenButton" />
 
     <Button
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:text="9"
-        android:id="@+id/button7"
-        android:layout_alignTop="@+id/button6"
-        android:layout_toEndOf="@+id/button6" />
+        android:id="@+id/nineButton"
+        android:layout_alignTop="@+id/eightButton"
+        android:layout_toEndOf="@+id/eightButton" />
 
     <Button
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:text="x"
-        android:id="@+id/button8"
-        android:layout_alignTop="@+id/button7"
-        android:layout_toEndOf="@+id/button7" />
+        android:id="@+id/multiplyButton"
+        android:layout_alignTop="@+id/nineButton"
+        android:layout_toEndOf="@+id/nineButton" />
 
     <Button
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:text="4"
-        android:id="@+id/button9"
-        android:layout_below="@+id/button5"
+        android:id="@+id/fourButton"
+        android:layout_below="@+id/sevenButton"
         android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:text="5"
-        android:id="@+id/button10"
-        android:layout_below="@+id/button5"
-        android:layout_toEndOf="@+id/button9" />
+        android:id="@+id/fiveButton"
+        android:layout_below="@+id/sevenButton"
+        android:layout_toEndOf="@+id/fourButton" />
 
     <Button
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:text="6"
-        android:id="@+id/button11"
-        android:layout_below="@+id/button6"
-        android:layout_toEndOf="@+id/button10" />
+        android:id="@+id/sixButton"
+        android:layout_below="@+id/eightButton"
+        android:layout_toEndOf="@+id/fiveButton" />
 
     <Button
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:text="-"
-        android:id="@+id/button12"
-        android:layout_below="@+id/button7"
-        android:layout_toEndOf="@+id/button11" />
+        android:id="@+id/minusButton"
+        android:layout_below="@+id/nineButton"
+        android:layout_toEndOf="@+id/sixButton" />
 
     <Button
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:text="1"
-        android:id="@+id/button13"
-        android:layout_below="@+id/button9"
+        android:id="@+id/oneButton"
+        android:layout_below="@+id/fourButton"
         android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:text="2"
-        android:id="@+id/button14"
-        android:layout_below="@+id/button9"
-        android:layout_toEndOf="@+id/button13" />
+        android:id="@+id/twoButton"
+        android:layout_below="@+id/fourButton"
+        android:layout_toEndOf="@+id/oneButton" />
 
     <Button
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:text="3"
-        android:id="@+id/button15"
-        android:layout_below="@+id/button11"
-        android:layout_toEndOf="@+id/button14" />
+        android:id="@+id/threeButton"
+        android:layout_below="@+id/sixButton"
+        android:layout_toEndOf="@+id/twoButton" />
 
     <Button
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:text="+"
-        android:id="@+id/button16"
-        android:layout_below="@+id/button11"
-        android:layout_toEndOf="@+id/button15" />
+        android:id="@+id/plusButton"
+        android:layout_below="@+id/sixButton"
+        android:layout_toEndOf="@+id/threeButton" />
 
     <Button
         android:layout_width="140dp"
         android:layout_height="70dp"
         android:text="0"
-        android:id="@+id/button17"
-        android:layout_below="@+id/button13"
+        android:id="@+id/zeroButton"
+        android:layout_below="@+id/oneButton"
         android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:text="."
-        android:id="@+id/button18"
-        android:layout_below="@+id/button15"
-        android:layout_toEndOf="@+id/button17" />
+        android:id="@+id/decimalButton"
+        android:layout_below="@+id/threeButton"
+        android:layout_toEndOf="@+id/zeroButton" />
 
     <Button
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:text="="
-        android:id="@+id/button19"
-        android:layout_below="@+id/button15"
-        android:layout_toEndOf="@+id/button18" />
+        android:id="@+id/equalsButton"
+        android:layout_below="@+id/threeButton"
+        android:layout_toEndOf="@+id/decimalButton" />
 
 </RelativeLayout>
